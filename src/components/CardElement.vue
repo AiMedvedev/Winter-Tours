@@ -4,7 +4,7 @@
       <img :src="require(`@/assets/img/${card.image}`)" class="mb-3" alt="" />
       <h3>{{ card.title }}</h3>
       <div class="description">
-        {{ card.text }}
+        {{ card.text | descrLength(card.text) }}
         <br />
         <span>Читать далее ...</span>
       </div>
