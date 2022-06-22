@@ -1,4 +1,8 @@
-# day9
+# winter-tours
+
+Небольшой учебный проект по зимним турам на VUE.js.
+
+Используются HTML, CSS, JavaScript, VUE.js.
 
 ## Project setup
 ```
